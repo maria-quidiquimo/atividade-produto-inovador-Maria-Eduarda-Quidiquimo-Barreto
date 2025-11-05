@@ -30,7 +30,6 @@ button:hover{
     text-decoration: underline;
     transition: all 0.3s ease;
     border-radius: 10px;
-    opacity: 0.8;
 }
 link:hover{
     color:blueviolet;
@@ -60,7 +59,4 @@ img{
 }
 table tr td:nth-child(even){
     background-color:rgb(207, 233, 255)
-}
-#galeria{
-    transform: scale(1.0);
 }
