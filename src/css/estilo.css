@@ -26,12 +26,16 @@ input[type= "email"]{
     background-color: rgba(88, 88, 152, 0.222);
 }
 button:hover{
-    color:blueviolet;
+    color:rgb(59, 133, 133);
     text-decoration: underline;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    opacity: 0.8;
 }
 link:hover{
     color:blueviolet;
     text-decoration: underline;
+    transition: all 0.3s ease;
 }
 h2::first-letter{
     font-size: larger;
@@ -51,8 +55,12 @@ nav a{
     padding: auto
 }
 img{
-    max-width: 100%;
+    max-width: 50%;
+    padding: 1%;
 }
 table tr td:nth-child(even){
     background-color:rgb(207, 233, 255)
+}
+#galeria{
+    transform: scale(1.0);
 }
